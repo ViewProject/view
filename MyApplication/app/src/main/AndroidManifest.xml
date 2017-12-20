@@ -16,6 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".CeLa.ZhuActivity" />
+        <activity android:name=".CeLa.CeActivity"></activity>
     </application>
 
 </manifest>

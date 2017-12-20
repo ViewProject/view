@@ -1,0 +1,15 @@
+package com.bj.myapplication.CeLa;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+import com.bj.myapplication.R;
+
+public class ZhuActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_zhu);
+    }
+}
