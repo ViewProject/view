@@ -11,6 +11,7 @@ import android.widget.TextView;
 import com.bj.myapplication.launcher.LauncherView;
 import com.bj.myapplication.lili.LiliActivity;
 import com.bj.myapplication.xiding.ZwjActivity;
+import com.bj.myapplication.ymk.YMKActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private int i=1;
@@ -95,7 +96,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent2);
                 break;
             case R.id.ymk:
-                
+                Intent intent3 = new Intent(MainActivity.this, YMKActivity.class);
+                startActivity(intent3);
                 break;
         }
     }
