@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
+import com.bj.myapplication.bai.BaiActivity;
 import com.bj.myapplication.launcher.LauncherView;
 import com.bj.myapplication.lili.LiliActivity;
 import com.bj.myapplication.xiding.ZwjActivity;
@@ -30,6 +31,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView zwj;
     private TextView wlj;
     private TextView ymk;
+    private TextView laj;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,6 +61,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         ymk = (TextView) findViewById(R.id.ymk);
         ymk.setOnClickListener(this);
+
+
+        laj = (TextView) findViewById(R.id.laj);
+        laj.setOnClickListener(this);
 
     }
 
@@ -98,6 +105,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.ymk:
                 Intent intent3 = new Intent(MainActivity.this, YMKActivity.class);
                 startActivity(intent3);
+                break;
+            case R.id.laj:
+                Intent intent4 = new Intent(MainActivity.this, BaiActivity.class);
+                startActivity(intent4);
                 break;
         }
     }

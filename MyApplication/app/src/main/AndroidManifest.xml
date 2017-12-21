@@ -18,9 +18,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".xiding.ZwjActivity"></activity>
+        <activity android:name=".xiding.ZwjActivity" />
         <activity android:name=".lili.LiliActivity" />
-        <activity android:name=".ymk.YMKActivity"></activity>
+        <activity android:name=".ymk.YMKActivity" />
+        <activity android:name=".bai.BaiActivity"></activity>
     </application>
 
 </manifest>

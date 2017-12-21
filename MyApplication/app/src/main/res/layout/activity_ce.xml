@@ -4,33 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#330000ff"
     android:orientation="vertical"
-    tools:context="com.bj.myapplication.CeLa.CeActivity">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="@color/colorAccent"
-        >
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="菜單列表"
-            android:gravity="center"
-            android:textColor="#ffff"
-            android:textSize="20sp"
-            />
-
-    </LinearLayout>
+   >
 
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#ffff"
-        android:layout_marginTop="150dp"
-        />
+
+
     <TextView
         android:id="@+id/zwj"
     android:layout_width="match_parent"
@@ -39,61 +18,49 @@
     android:gravity="center"
     android:textColor="@color/colorAccent"
     android:textSize="20sp"
+        android:layout_marginTop="50dp"
     />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#ffff"
-        />
+
 
     <TextView
         android:id="@+id/wlj"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="吸頂效果"
+        android:text="点赞功能"
         android:gravity="center"
         android:textColor="@color/colorAccent"
+        android:layout_marginTop="50dp"
         android:textSize="20sp"
 
         />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#ffff"
-        />
+
 
     <TextView
         android:id="@+id/ymk"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:gravity="center"
-        android:text="吸頂效果"
+        android:text="收货苹果"
         android:textColor="@color/colorAccent"
+        android:layout_marginTop="50dp"
         android:textSize="20sp" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#ffff"
-        />
+
 
     <TextView
-        android:id="@+id/saobai"
+        android:id="@+id/laj"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="吸頂效果"
+        android:text="刮卡效果"
         android:gravity="center"
         android:textColor="@color/colorAccent"
         android:textSize="20sp"
+        android:layout_marginTop="50dp"
         />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#ffff"
-        />
+
 
 
 
