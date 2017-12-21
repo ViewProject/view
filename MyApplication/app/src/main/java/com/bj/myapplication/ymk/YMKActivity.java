@@ -26,7 +26,6 @@ public class YMKActivity extends AppCompatActivity {
     Timer myTimer = null;
     TimerTask mTask = null;
     private static final int SNOW_BLOCK = 1;
-    private static final int translation=2;
     private Handler mHandler = new Handler() {
         public void dispatchMessage(Message msg) {
             mFlowerview.inva();
@@ -71,8 +70,6 @@ public class YMKActivity extends AppCompatActivity {
                     public void run() {
                         showAnimation();
                     }
-
-
                 });
             }
         };
@@ -86,9 +83,9 @@ public class YMKActivity extends AppCompatActivity {
     }
     private void showAnimation() {
         ObjectAnimator animator1 = ObjectAnimator.ofFloat(
-                mIv, "translationX", 400);
+                mIv, "translationX",0f, 500f);
         ObjectAnimator animator2 = ObjectAnimator.ofFloat(
-                mIv, "translationX", -300);
+                mIv, "translationX", 500f,0f);
         AnimatorSet animatorSet = new AnimatorSet();
         animatorSet.play(animator1).before(animator2);
         animatorSet.start();
