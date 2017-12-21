@@ -6,12 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-<<<<<<< HEAD
-    android:background="#FFFFFF"
-=======
 
->>>>>>> 156497441b6e88f6df460dd22a7b1faf15a7c952
-    tools:context=".ymk.YMKActivity">
+    android:background="#FFFFFF"
+>
     <com.bj.myapplication.ymk.FlowerView
         android:id="@+id/flowerview"
         android:layout_weight="1"
