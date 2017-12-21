@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#330000ff"
+    android:orientation="vertical"
     tools:context="com.bj.myapplication.CeLa.CeActivity">
 
     <LinearLayout
@@ -23,6 +24,76 @@
 
     </LinearLayout>
 
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffff"
+        android:layout_marginTop="150dp"
+        />
+    <TextView
+        android:id="@+id/zwj"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text="吸頂效果"
+    android:gravity="center"
+    android:textColor="@color/colorAccent"
+    android:textSize="20sp"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffff"
+        />
+
+    <TextView
+        android:id="@+id/wlj"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="吸頂效果"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffff"
+        />
+
+    <TextView
+        android:id="@+id/ymk"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="吸頂效果"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffff"
+        />
+
+    <TextView
+        android:id="@+id/saobai"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="吸頂效果"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffff"
+        />
 
 
 
