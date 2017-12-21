@@ -83,9 +83,9 @@ public class YMKActivity extends AppCompatActivity {
     }
     private void showAnimation() {
         ObjectAnimator animator1 = ObjectAnimator.ofFloat(
-                mIv, "translationX",0f, 500f);
+                mIv, "translationX",0f, 600f);
         ObjectAnimator animator2 = ObjectAnimator.ofFloat(
-                mIv, "translationX", 500f,0f);
+                mIv, "translationX", 600f,0f);
         AnimatorSet animatorSet = new AnimatorSet();
         animatorSet.play(animator1).before(animator2);
         animatorSet.start();
