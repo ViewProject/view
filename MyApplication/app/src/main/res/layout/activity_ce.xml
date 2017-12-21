@@ -18,7 +18,7 @@
     android:gravity="center"
     android:textColor="@color/colorAccent"
     android:textSize="20sp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="45dp"
     />
 
 
@@ -30,7 +30,7 @@
         android:text="点赞功能"
         android:gravity="center"
         android:textColor="@color/colorAccent"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="45dp"
         android:textSize="20sp"
 
         />
@@ -44,7 +44,7 @@
         android:gravity="center"
         android:text="收货苹果"
         android:textColor="@color/colorAccent"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="45dp"
         android:textSize="20sp" />
 
 
@@ -57,7 +57,7 @@
         android:gravity="center"
         android:textColor="@color/colorAccent"
         android:textSize="20sp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="45dp"
         />
 
 
