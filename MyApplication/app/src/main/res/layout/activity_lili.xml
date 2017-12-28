@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+
+    <com.bj.myapplication.lili.BezierWaveView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/pingguo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/shu"
+        android:layout_marginTop="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/periscope"
+        android:layout_toStartOf="@+id/periscope" />
+    <ImageView
+        android:id="@+id/guaiwu"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/tong"
+        android:layout_marginTop="75dp"
+        android:layout_below="@+id/pingguo"
+        android:layout_toLeftOf="@+id/pingguo"
+        android:layout_toStartOf="@+id/pingguo"
+        android:layout_marginRight="48dp"
+        android:layout_marginEnd="48dp" />
+
+    <me.yifeiyuan.library.PeriscopeLayout
+        android:id="@+id/periscope"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/periscope"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/periscope"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:src="@mipmap/xx" />
+</RelativeLayout>
